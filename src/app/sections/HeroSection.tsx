@@ -94,7 +94,7 @@ export default function HeroSection() {
       {/* bg grow */}
       <div
         ref={bgRef}
-        className="hero-bg absolute inset-0 z-0 bg-white will-change-transform"
+        className="hero-bg absolute inset-0 z-0 bg-[#4E4E5A]/30 will-change-transform"
         aria-hidden="true"
       />
 
