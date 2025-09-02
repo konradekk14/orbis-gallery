@@ -9,13 +9,13 @@ import { useGSAP } from "@gsap/react";
 gsap.registerPlugin(ScrollTrigger);
 
 const IMAGES: { src: string; alt: string; priority?: boolean }[] = [
-  { src: "/images/abstract_calm.png", alt: "Hero", priority: true },
-  { src: "/images/abstract_orange.png", alt: "Hero1" },
-  { src: "/images/abstract_pink.png", alt: "Hero2" },
-  { src: "/images/modern.png", alt: "Hero3" },
-  { src: "/images/hero.webp", alt: "Hero4" },
-  { src: "/images/abstract_purple.png", alt: "Hero5" },
-  { src: "/images/torus.png", alt: "Hero6" },
+  { src: "/images/red.webp", alt: "Hero", priority: true },
+  { src: "/images/red-orange.webp", alt: "Hero1" },
+  { src: "/images/orange-yellow.webp", alt: "Hero2" },
+  { src: "/images/yellow.webp", alt: "Hero3" },
+  { src: "/images/couch.webp", alt: "Hero4" },
+  { src: "/images/hotel.webp", alt: "Hero5" },
+  { src: "/images/car.webp", alt: "Hero6" },
 ];
 
 export default function HeroSection() {
@@ -101,7 +101,7 @@ export default function HeroSection() {
       {/* image wrapper expands on scroll */}
       <div
         ref={imageWrapRef}
-        className="hero-image-wrap relative z-10 w-[60vw] overflow-hidden rounded-2xl opacity-0 will-change-transform"
+        className="hero-image-wrap relative z-10 w-[70vw] overflow-hidden rounded-2xl opacity-0 will-change-transform"
       >
         <div className="relative w-full" style={{ paddingTop: "62.5%" }}>
           {/* image stack */}
