@@ -28,14 +28,12 @@ const DescriptionSection = () => {
 
   return (
     <section className="description-section w-full">
-      <div className="container mx-auto flex justify-center items-center relative py-24">
-        <div className="w-full h-full">
-          <div className="md:text-5xl text-2xl leading-[5vw] text-black/30 font-normal lowercase flex flex-col text-center justify-center items-center">
+      <div className="container mx-auto flex justify-center items-center relative py-32">
+        <div className="max-w-[800px] h-full">
+          <div className="md:text-6xl text-3xl leading-[5vw] tracking-wide text-black/30 font-normal lowercase flex flex-col text-center justify-center items-center">
             <p>
-              Orbis is a concept-generated gallery born from the dialogue
-              between human curiosity and machine creativity. Through the simple
-              geometry of the circle, it reimagines space, matter, and the
-              infinite loops that define our perception.
+              orbis is a concept-generated gallery born from the dialogue
+              between human curiosity and machine creativity.
             </p>
           </div>
         </div>

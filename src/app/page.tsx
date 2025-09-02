@@ -8,6 +8,7 @@ import { ScrollTrigger, ScrollSmoother } from "gsap/all";
 import HeroSection from "./sections/HeroSection";
 import DescriptionSection from "./sections/DescriptionSection";
 import GallerySection from "./sections/GallerySection";
+import Footer from "./components/Footer";
 
 gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
 
@@ -30,7 +31,7 @@ const Home = () => {
           <HeroSection />
           <DescriptionSection />
           <GallerySection />
-          <div className="min-h-screen w-full bg-blue-200"></div>
+          <Footer />
         </div>
       </div>
     </div>
