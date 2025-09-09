@@ -11,9 +11,7 @@ gsap.registerPlugin(ScrollTrigger);
 const IMAGES: { src: string; alt: string; priority?: boolean }[] = [
   { src: "/images/red.webp", alt: "Hero", priority: true },
   { src: "/images/red-orange.webp", alt: "Hero1" },
-  { src: "/images/orange-yellow.webp", alt: "Hero2" },
   { src: "/images/yellow.webp", alt: "Hero3" },
-  { src: "/images/couch.webp", alt: "Hero4" },
   { src: "/images/hotel.webp", alt: "Hero5" },
   { src: "/images/car.webp", alt: "Hero6" },
 ];
@@ -56,9 +54,9 @@ export default function HeroSection() {
             {
               scale: 1,
               autoAlpha: 1,
-              duration: 0.7,
-              stagger: 0.15,
-              ease: "back.out(1.4)",
+              duration: 0.6,
+              stagger: 0.12,
+              ease: "back.out(1.1)",
               force3D: true,
             },
             "-=0.2"
